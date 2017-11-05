@@ -1,5 +1,6 @@
 # usiri
 usiri [chaguo]
+
     -j, --jina JINA                  jina itayotumwika kutengeneza siri
     -s, --siti SITI                  siti itayotumwika kutengeneza siri
     -a, --alama [AINA]               aina ya alama | moja katita [yoyote ,safi ,bila]
