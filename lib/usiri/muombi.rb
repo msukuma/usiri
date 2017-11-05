@@ -46,7 +46,7 @@ class Muombi
       ombi = tengeneza_ombi chaguo
 
       if chaguo == :siri
-        return ombi.call.strip
+        return ombi.call(swala).strip
       else
         chaguo_ombi = tengeneza_chaguo_ombi chaguo
 
@@ -101,8 +101,10 @@ class Muombi
       opts
     end
 
-    def omba_siri
-        print "Ingiza siri ku: "
+    def omba_siri swala
+        # swala = "Ingiza siri ku: "
+        # swala = "#{MAELEZO[:jaribu_tena]} " + swala if kosa
+        print swala
         ingizo = STDIN.noecho(&:gets).strip
         clear_line
         ingizo

@@ -13,7 +13,7 @@ CHAGUO_CLI_REGEX = /^-[jsautTm]$|^--jina$|^--siti$|^--alama$|^--urefu$|^--toleo$
 MAELEZO = {
   jina: "jina itayotumwika kutengeneza siri",
   siti: "siti itayotumwika kutengeneza siri",
-  siri: "siri ku",
+  siri: "siri ku: ",
   alama: "aina ya alama | moja katita [#{AINA_MAALAMA.join(" ,")}]",
   urefu: "urefu wa siri. msingi: #{UREFU_MSINGI},\
   wastan wa chini: #{UREFU_WASTAN_CHINI}, wastan wa ju: #{UREFU_WASTAN_JU}",
