@@ -1,10 +1,5 @@
 require "colorize"
 
-# CHAGUO = {
-#   ID: [:jina, :siti, :siri],
-#   SIRI: [:alama, :urefu, :toleo]
-# }
-
 MSINGI = {
   alama: :yoyote,
   urefu: 23,

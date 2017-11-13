@@ -34,7 +34,7 @@ module Usiri
       tokeo = badilisha_maalama tokeo, kutoka, hashi
     end
 
-    copi_ila_ubao tokeo
+    copi_kwenye_ubao tokeo
     kwaheri
   end
 
@@ -117,7 +117,7 @@ module Usiri
     herufu_tokeo.join
   end
 
-  def copi_ila_ubao siri
+  def copi_kwenye_ubao siri
     Clipboard.copy siri
   end
 

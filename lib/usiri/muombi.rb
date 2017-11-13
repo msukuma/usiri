@@ -1,6 +1,6 @@
 require "inquirer"
 require "usiri/muhakikisha"
-require "usiri/IT"
+require "usiri/it"
 require "usiri/mwisho"
 
 class Muombi
