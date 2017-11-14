@@ -7,7 +7,7 @@ Gem::Specification.new do |spec|
   spec.name                   = 'usiri'
   spec.version                = Usiri::TOLEO
   spec.executables            << 'usiri'
-  spec.date                   = '2017-10-24'
+  spec.date                   = Time.new().strftime("%Y-%m-%d")
   spec.summary                = "Manega ya maneno ya siri"
   spec.description            = "Hii ni programu raisi ya ku hifadhi maneno ya siri"
   spec.authors                = ["Itenga"]
